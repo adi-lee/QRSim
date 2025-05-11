@@ -31,6 +31,13 @@ QRsim采用C/S结构，虚幻引擎平台用以针对收到的控制信息进行
 2. 运行`Controller_py`文件中的`main.py`；
 3. 点击虚幻引擎工程的“运行”，即可体验QRSim
 
+## 功能
+1. 键盘WSAD控制无人系统移动；
+2. 键盘0~9可控制摄像机视角转换，以在不同角度观察；
+3. 无人系统轨迹描绘和消除，tab键控制轨迹生成与否，`Q`按键消除现有轨迹；
+4. 利用TCP与控制算法结合，测试控制算法有效性。
+
+
 
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UE2.gif)
 
