@@ -35,7 +35,3 @@ QRsim采用C/S结构，虚幻引擎平台用以针对收到的控制信息进行
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UE2.gif)
 
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UEMultiUSVsEnclosingControl.gif)
-
-<img src="https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UE2.gif" width="600">
-
-<img src="https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UEMultiUSVsEnclosingControl.gif" width="600">
