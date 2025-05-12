@@ -37,10 +37,10 @@ QRsim采用C/S结构，虚幻引擎平台用以针对收到的控制信息进行
 3. 无人系统轨迹描绘和消除，tab键控制轨迹生成与否，`Q`按键消除现有轨迹；
 4. 利用TCP与控制算法结合，测试控制算法有效性。
 
-
-
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UE2.gif)
 
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UEMultiUSVsEnclosingControl.gif)
 
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UEusv_trajectory_endpoint.gif)
+
+本项目开发参考了以下教程，该教程亦可作为本项目的前置知识及参考：[参考](https://www.bilibili.com/video/BV19Y4y1e7KQ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=765d56c958a80a8ea382c4e203764281)
