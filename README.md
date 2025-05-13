@@ -40,7 +40,7 @@ QRsim采用C/S结构，虚幻引擎平台用以针对收到的控制信息进行
 
 仿真平台包含子模块：虚拟物理环境、无人系统模型模块、系统定位模块、感知模块、通讯模块等。
 设计框图如下：
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/20250513145126.png)
+![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/20250513154534.png)
 
 
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UE2.gif)
