@@ -21,6 +21,8 @@ QRsim采用C/S结构，虚幻引擎平台用以针对收到的控制信息进行
 
 开发版本：虚幻引擎4.27.2
 
+GPU版本：RTX3060 （显卡过低可能导致运行卡顿，甚至运行出错）
+
 ### 安装
 1. 安装虚幻引擎，并下载插件：**ObjectDeliverer**和**TCPSocket Plugin**
 2. 克隆工程: `git clone https://github.com/adi-lee/QRSim.git`
