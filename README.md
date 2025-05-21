@@ -1,13 +1,3 @@
-<!--
- * @Author: adi 202220116628@mail.scut.edu.cn
- * @Date: 2025-05-11 09:07:50
- * @LastEditors: adi 202220116628@mail.scut.edu.cn
- * @LastEditTime: 2025-05-21 16:07:11
- * @FilePath: \srcc:\Users\SCUT-\Documents\Unreal Projects\QRSim\README.md
- * @Description: 
- * 
- * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
--->
 # QRSim
 
 QRsim(Quick Real Sim) 是一款使用虚幻引擎4开发的3D仿真平台，目前可以应用于无人系统的运动学控制3D仿真。该平台主要有两大特点，一是可以**快速(Quick)验证控制算法的有效性**，二是可以**无缝迁移到实物（Real）平台中**进行实物实验。目前该平台已经成功应用于无人艇集群的3D仿真及实物实验中，已在实验室中推广至数十人。
