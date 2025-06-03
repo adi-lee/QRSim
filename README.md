@@ -1,3 +1,31 @@
+<!--
+ * @Author: adi 202220116628@mail.scut.edu.cn
+ * @Date: 2025-05-11 09:07:50
+ * @LastEditors: adi 202220116628@mail.scut.edu.cn
+ * @LastEditTime: 2025-06-03 11:46:04
+ * @FilePath: \srcc:\Users\SCUT-\Documents\Unreal Projects\QRSim\README.md
+ * @Description: 
+ * 
+ * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
+-->
+<div align='center'>
+    <img src="https://gitee.com/adi-lee/blogs_images/raw/master/imgs/20250513154534.png" alt="alt text" width="100%">
+    <h1>QRSim</h1>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/github/stars/adi-lee/QRSim?style=for-the-badge&logo=github" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/adi-lee/QRSim?style=for-the-badge&logo=github" alt="GitHub forks"/>
+  <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=for-the-badge" alt="Language"/>
+</div>
+
+<div align="center">
+  <h3>📚 无人系统3D仿真平台</h3>
+  <p><em>快速验证控制算法有效性、无缝迁移到实物平台</em></p>
+</div>
+
+---
+
 # QRSim
 
 QRsim(Quick Real Sim) 是一款使用虚幻引擎4开发的3D仿真平台，目前可以应用于无人系统的运动学控制3D仿真。该平台主要有两大特点，一是可以**快速(Quick)验证控制算法的有效性**，二是可以**无缝迁移到实物（Real）平台中**进行实物实验。目前该平台已经成功应用于无人艇集群的3D仿真及实物实验中，已在实验室中推广至数十人。
@@ -42,13 +70,13 @@ GPU版本：RTX3060 （显卡过低可能导致运行卡顿，甚至运行出错
 
 仿真平台包含子模块：虚拟物理环境、无人系统模型模块、系统定位模块、感知模块、通讯模块等。
 设计框图如下：
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/20250513154534.png)
+![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/20250521164817.png)
 
 
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UE2.gif)
+![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/ue_float_yasuo.gif)
 
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UEMultiUSVsEnclosingControl.gif)
+![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/ue_EnclosingControl2_yasuo.gif)
 
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/UEusv_trajectory_endpoint.gif)
+![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/ue_pid_yasuo.gif)
 
 本项目开发参考了以下教程，该教程亦可作为本项目的前置知识及参考：[参考](https://www.bilibili.com/video/BV19Y4y1e7KQ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=765d56c958a80a8ea382c4e203764281)
