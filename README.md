@@ -1,15 +1,5 @@
-<!--
- * @Author: adi 202220116628@mail.scut.edu.cn
- * @Date: 2025-05-11 09:07:50
- * @LastEditors: adi 202220116628@mail.scut.edu.cn
- * @LastEditTime: 2025-06-03 11:46:04
- * @FilePath: \srcc:\Users\SCUT-\Documents\Unreal Projects\QRSim\README.md
- * @Description: 
- * 
- * Copyright (c) 2025 by ${git_name_email}, All Rights Reserved. 
--->
 <div align='center'>
-    <img src="https://gitee.com/adi-lee/blogs_images/raw/master/imgs/20250513154534.png" alt="alt text" width="100%">
+    <img src="https://gitee.com/adi-lee/blogs_images/raw/master/imgs/platform_architecture.png" alt="alt text" width="100%">
     <h1>QRSim</h1>
 </div>
 
@@ -70,7 +60,7 @@ GPU版本：RTX3060 （显卡过低可能导致运行卡顿，甚至运行出错
 
 仿真平台包含子模块：虚拟物理环境、无人系统模型模块、系统定位模块、感知模块、通讯模块等。
 设计框图如下：
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/20250521164817.png)
+![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/platform_architecture.png)
 
 
 ![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/ue_float_yasuo.gif)
