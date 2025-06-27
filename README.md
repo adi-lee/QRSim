@@ -1,5 +1,5 @@
 <div align='center'>
-    <img src="https://gitee.com/adi-lee/blogs_images/raw/master/imgs/platform_architecture.png" alt="alt text" width="100%">
+    <img src="./pic/log.jpg" alt="alt text" width="100%">
     <h1>QRSim</h1>
 </div>
 
@@ -26,6 +26,14 @@ QRsim采用C/S结构，虚幻引擎平台用以针对收到的控制信息进行
 这样的设计与实物中非常贴合，有利于快速移植到实物平台上。
 
 ## 工程结构
+```
+QRSim/
+├── Config/
+├── Content/
+├── Controller_py/
+├── QRSim.uproject
+└── README.md
+```
 
 - **Config**: 虚幻引擎工程的默认配置；
 - **Content**: 工程的主要内容，其中保留了初学者内容以便后续开发时有基础的物料可以使用；
@@ -60,13 +68,14 @@ GPU版本：RTX3060 （显卡过低可能导致运行卡顿，甚至运行出错
 
 仿真平台包含子模块：虚拟物理环境、无人系统模型模块、系统定位模块、感知模块、通讯模块等。
 设计框图如下：
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/platform_architecture.png)
+![](./pic/structure.jpg)
 
+部分功能演示如下：
 
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/ue_float_yasuo.gif)
+![](./pic/ue_float.gif)
 
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/ue_EnclosingControl2_yasuo.gif)
+![](./pic/ue_EnclosingControl2.gif)
 
-![](https://gitee.com/adi-lee/blogs_images/raw/master/imgs/ue_pid_yasuo.gif)
+![](./pic/ue_pid.gif)
 
 本项目开发参考了以下教程，该教程亦可作为本项目的前置知识及参考：[参考](https://www.bilibili.com/video/BV19Y4y1e7KQ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=765d56c958a80a8ea382c4e203764281)
